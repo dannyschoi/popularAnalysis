@@ -3,5 +3,5 @@ numpy
 pandas
 scikit_learn
 streamlit
-tensorflow==2.5.0
+tensorflow-cpu
 wordcloud
