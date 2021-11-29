@@ -1,7 +1,7 @@
-matplotlib==3.5.0
-numpy==1.21.4
-pandas==1.2.5
-scikit_learn==1.0.1
-streamlit==1.2.0
+matplotlib
+numpy
+pandas
+scikit_learn
+streamlit
 tensorflow==2.5.0
-wordcloud==1.8.1
+wordcloud
