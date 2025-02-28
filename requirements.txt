@@ -5,3 +5,4 @@ scikit_learn
 streamlit
 tensorflow-cpu
 wordcloud
+tf-keras
