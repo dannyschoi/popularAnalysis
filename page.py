@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import json
 import numpy as np
-from tensorflow import keras
+import tf_keras as keras
 import wordcloud as wordcloud
 import datetime as dt
 import streamlit as st
@@ -38,7 +38,7 @@ def split_tags(x):
         return ""
 
 
-@st.cache
+@st.cache_data
 def load_data():
     data = pd.read_csv("Kaggle Dataset/US_youtube_trending_data.csv")
     with open("Kaggle Dataset/US_category_id.json", "r") as f:
