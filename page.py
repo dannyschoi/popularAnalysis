@@ -88,7 +88,7 @@ with st.expander(
 
 
 def viewsDates(df):
-    x = df.groupby("datetime").mean().loc[:, ["view_count"]]
+    x = df.groupby("datetime").mean(numeric_only=True).loc[:, ["view_count"]]
     return x
 
 
@@ -106,7 +106,7 @@ def viewsByCate(df):
     dateFormat = mdates.DateFormatter('%y/%m/%d')
 
     for i, cate in enumerate(category):
-        x = df[df.category == cate].groupby("datetime").mean().loc[:, ["view_count"]]
+        x = df[df.category == cate].groupby("datetime").mean(numeric_only=True).loc[:, ["view_count"]]
         x.plot(ax=ax[i])
         ax[i].set_title(cate)
         plt.setp(ax[i].get_xticklabels(), rotation=30, horizontalalignment='right')
