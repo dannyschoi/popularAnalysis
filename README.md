@@ -16,3 +16,10 @@ The dataset used is from Kaggle and can be updated using the Kaggle API.
 
 ## Example
 
+UI
+
+![Image](https://github.com/user-attachments/assets/c69086fa-5aa8-445e-809e-67c18c86fa18)
+
+Predictive Model
+
+![Image](https://github.com/user-attachments/assets/6ce67013-2bf3-4206-ad53-bbf36cc0bcde)
